@@ -6,7 +6,6 @@
 import StackFrame = require("stackframe");
 
 declare namespace ErrorStackParser {
-    export type {StackFrame};
     /**
      * Given an Error object, extract the most information from it.
      *
